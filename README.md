@@ -4,7 +4,7 @@ This project compares two image learning approaches on the Caltech-256 dataset: 
 
 🧠 Approach 1: Unsupervised Learning (FRLM)
 Model: Custom Convolutional Autoencoder (AE).
-Goal: Learn high-quality feature representations by enforcing a specific fractal dimension (D_target = 2.5$) in the latent space.
+Goal: Learn high-quality feature representations by enforcing a specific fractal dimension (D_target = 2.5) in the latent space.
 Key Innovation: Uses a Differentiable Fractal Loss based on a soft-counted correlation sum, combined with standard MSE Reconstruction Loss.
 Evaluation: The quality of the learned features is assessed via linear probing (training a linear classifier on the frozen AE encoder output).
 
