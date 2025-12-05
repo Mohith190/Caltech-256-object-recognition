@@ -12,7 +12,7 @@ Key Innovation: Uses a Differentiable Fractal Loss based on a soft-counted corre
 
 Evaluation: The quality of the learned features is assessed via linear probing (training a linear classifier on the frozen AE encoder output).
 
-💻 Approach 2: Supervised Learning (Baseline)
+💻 Approach 2: Supervised Learning
 
 Model: ResNet-50 (trained end-to-end).
 
@@ -23,6 +23,15 @@ Optimization Details - The ResNet-50 training was optimized for performance and 
 FixRes (Fixed-Resolution Training): The model was trained at one resolution and fine-tuned/evaluated at a slightly higher one for improved generalization.
 
 Mixed Precision Training: Utilized half-precision floating-point numbers (FP16) for faster training and reduced memory consumption.
+
+📊 Results Summary
+The table below summarizes the performance of the feature extractors on the Caltech-256 classification task.
+
+Method,Paradigm,Feature Extractor,Accuracy (Classification)
+Standard AE,Unsupervised,AE Encoder,~12.50%
+Fractal-Regularized AE (Ours),Unsupervised,FRLM Encoder,15.27%
+ResNet-50,Supervised,End-to-End,90.36%
+
 
 Loss Function: Optimized using Cross-Entropy Loss with Label Smoothing to prevent over-confidence and improve robustness.
 
