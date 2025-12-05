@@ -28,13 +28,11 @@ Mixed Precision Training: Utilized half-precision floating-point numbers (FP16) 
 
 The table below summarizes the performance of the feature extractors on the Caltech-256 classification task.
 
-Method,Paradigm,Feature Extractor,Accuracy (Classification)
-
-Standard AE,Unsupervised,AE Encoder,~12.50%
-
-Fractal-Regularized AE (Ours),Unsupervised,FRLM Encoder,15.27%
-
-ResNet-50,Supervised,End-to-End,90.36%
+| Method                        |   Paradigm    |   Feature Extractor   | Accuracy (Classification) |
+| ----------------------------- |:-------------:|:----------------------:| -------------------------:|
+| Standard AE                   | Unsupervised  | AE Encoder             |                   ~12.50% |
+| Fractal-Regularized AE (Ours) | Unsupervised  | FRLM Encoder           |                    15.27% |
+| ResNet-50                     | Supervised    | End-to-End             |                    90.36% |
 
 
 Loss Function: Optimized using Cross-Entropy Loss with Label Smoothing to prevent over-confidence and improve robustness.
