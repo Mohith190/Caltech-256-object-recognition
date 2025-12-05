@@ -14,9 +14,9 @@ FixRes (Fixed-Resolution Training): The model was trained at one resolution and 
 
 Mixed Precision Training: Utilized half-precision floating-point numbers (FP16) for faster training and reduced memory consumption.
 
-🧠 Approach 2: Unsupervised Learning (FRLM)
+🧠 Approach 2: Unsupervised Learning
 
-Model: Custom Convolutional Autoencoder (AE).
+Model: Fractal Convolutional Autoencoder (AE).
 
 Goal: Learn high-quality feature representations by enforcing a specific fractal dimension (D_target = 2.5) in the latent space.
 
