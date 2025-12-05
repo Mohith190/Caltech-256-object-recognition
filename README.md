@@ -25,11 +25,15 @@ FixRes (Fixed-Resolution Training): The model was trained at one resolution and 
 Mixed Precision Training: Utilized half-precision floating-point numbers (FP16) for faster training and reduced memory consumption.
 
 📊 Results Summary
+
 The table below summarizes the performance of the feature extractors on the Caltech-256 classification task.
 
 Method,Paradigm,Feature Extractor,Accuracy (Classification)
+
 Standard AE,Unsupervised,AE Encoder,~12.50%
+
 Fractal-Regularized AE (Ours),Unsupervised,FRLM Encoder,15.27%
+
 ResNet-50,Supervised,End-to-End,90.36%
 
 
