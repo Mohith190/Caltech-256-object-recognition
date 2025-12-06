@@ -1,1 +1,1 @@
-Screenshots of results present in the folder.
+Screenshots of results of both the approaches are present in the folder.
