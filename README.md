@@ -1,6 +1,6 @@
 Caltech-256: Supervised & Unsupervised Learning
 
-This project compares two image learning approaches on the Caltech-256 dataset: Fractal-Regularized Latent Manifold Learning (FRLM) and a highly optimized ResNet-50 supervised baseline.
+This project compares two image learning approaches on the Caltech-256 dataset: Fractal-Regularized Latent Manifold Learning and a highly optimized ResNet-50 supervised baseline.
 
 💻 Approach 1: Supervised Learning
 
